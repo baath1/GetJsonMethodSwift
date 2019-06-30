@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9652A75B22C884B200C94867 /* getNikruData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652A75A22C884B200C94867 /* getNikruData.swift */; };
+		9652A75D22C89DBB00C94867 /* NikruApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652A75C22C89DBB00C94867 /* NikruApiManager.swift */; };
+		9652A75F22C8ACEB00C94867 /* NikruConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652A75E22C8ACEB00C94867 /* NikruConstants.swift */; };
+		9652A76122C8ADB700C94867 /* NikruTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652A76022C8ADB700C94867 /* NikruTableView.swift */; };
+		968FABDA22C7E1520075A1B2 /* NikruTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968FABD922C7E1520075A1B2 /* NikruTableViewCell.swift */; };
+		96DCAA8122C75262006B9017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCAA8022C75262006B9017 /* AppDelegate.swift */; };
+		96DCAA8322C75262006B9017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCAA8222C75262006B9017 /* ViewController.swift */; };
+		96DCAA8622C75262006B9017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DCAA8422C75262006B9017 /* Main.storyboard */; };
+		96DCAA8822C75263006B9017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DCAA8722C75263006B9017 /* Assets.xcassets */; };
+		96DCAA8B22C75263006B9017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DCAA8922C75263006B9017 /* LaunchScreen.storyboard */; };
+		D067CDF6A0C8AB2CC0733438 /* Pods_GetJsonMethodSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06CF494FDA08BC47EFAB0303 /* Pods_GetJsonMethodSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06CF494FDA08BC47EFAB0303 /* Pods_GetJsonMethodSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetJsonMethodSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E1B881FD49C96699739268 /* Pods-GetJsonMethodSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetJsonMethodSwift.debug.xcconfig"; path = "Target Support Files/Pods-GetJsonMethodSwift/Pods-GetJsonMethodSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		9652A75A22C884B200C94867 /* getNikruData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getNikruData.swift; sourceTree = "<group>"; };
+		9652A75C22C89DBB00C94867 /* NikruApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikruApiManager.swift; sourceTree = "<group>"; };
+		9652A75E22C8ACEB00C94867 /* NikruConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikruConstants.swift; sourceTree = "<group>"; };
+		9652A76022C8ADB700C94867 /* NikruTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikruTableView.swift; sourceTree = "<group>"; };
+		968FABD922C7E1520075A1B2 /* NikruTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikruTableViewCell.swift; sourceTree = "<group>"; };
+		96DCAA7D22C75262006B9017 /* GetJsonMethodSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetJsonMethodSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DCAA8022C75262006B9017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96DCAA8222C75262006B9017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96DCAA8522C75262006B9017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96DCAA8722C75263006B9017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96DCAA8A22C75263006B9017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96DCAA8C22C75263006B9017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0A3C8022896DD452203DEE /* Pods-GetJsonMethodSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetJsonMethodSwift.release.xcconfig"; path = "Target Support Files/Pods-GetJsonMethodSwift/Pods-GetJsonMethodSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96DCAA7A22C75262006B9017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D067CDF6A0C8AB2CC0733438 /* Pods_GetJsonMethodSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67107DF66D0415B43D8E15F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CF494FDA08BC47EFAB0303 /* Pods_GetJsonMethodSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BE4DB5EA902C8CD72330DB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24E1B881FD49C96699739268 /* Pods-GetJsonMethodSwift.debug.xcconfig */,
+				CE0A3C8022896DD452203DEE /* Pods-GetJsonMethodSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96DCAA7422C75262006B9017 = {
+			isa = PBXGroup;
+			children = (
+				96DCAA7F22C75262006B9017 /* GetJsonMethodSwift */,
+				96DCAA7E22C75262006B9017 /* Products */,
+				8BE4DB5EA902C8CD72330DB3 /* Pods */,
+				67107DF66D0415B43D8E15F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96DCAA7E22C75262006B9017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96DCAA7D22C75262006B9017 /* GetJsonMethodSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96DCAA7F22C75262006B9017 /* GetJsonMethodSwift */ = {
+			isa = PBXGroup;
+			children = (
+				96DCAA8022C75262006B9017 /* AppDelegate.swift */,
+				96DCAA8222C75262006B9017 /* ViewController.swift */,
+				9652A75E22C8ACEB00C94867 /* NikruConstants.swift */,
+				9652A75A22C884B200C94867 /* getNikruData.swift */,
+				9652A75C22C89DBB00C94867 /* NikruApiManager.swift */,
+				9652A76022C8ADB700C94867 /* NikruTableView.swift */,
+				968FABD922C7E1520075A1B2 /* NikruTableViewCell.swift */,
+				96DCAA8422C75262006B9017 /* Main.storyboard */,
+				96DCAA8722C75263006B9017 /* Assets.xcassets */,
+				96DCAA8922C75263006B9017 /* LaunchScreen.storyboard */,
+				96DCAA8C22C75263006B9017 /* Info.plist */,
+			);
+			path = GetJsonMethodSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96DCAA7C22C75262006B9017 /* GetJsonMethodSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96DCAA8F22C75263006B9017 /* Build configuration list for PBXNativeTarget "GetJsonMethodSwift" */;
+			buildPhases = (
+				6E0A6B0275F8B3BBC9D53E04 /* [CP] Check Pods Manifest.lock */,
+				96DCAA7922C75262006B9017 /* Sources */,
+				96DCAA7A22C75262006B9017 /* Frameworks */,
+				96DCAA7B22C75262006B9017 /* Resources */,
+				852E854D109AA2F761FB8471 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetJsonMethodSwift;
+			productName = GetJsonMethodSwift;
+			productReference = 96DCAA7D22C75262006B9017 /* GetJsonMethodSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96DCAA7522C75262006B9017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Office;
+				TargetAttributes = {
+					96DCAA7C22C75262006B9017 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 96DCAA7822C75262006B9017 /* Build configuration list for PBXProject "GetJsonMethodSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96DCAA7422C75262006B9017;
+			productRefGroup = 96DCAA7E22C75262006B9017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96DCAA7C22C75262006B9017 /* GetJsonMethodSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96DCAA7B22C75262006B9017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DCAA8B22C75263006B9017 /* LaunchScreen.storyboard in Resources */,
+				96DCAA8822C75263006B9017 /* Assets.xcassets in Resources */,
+				96DCAA8622C75262006B9017 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E0A6B0275F8B3BBC9D53E04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetJsonMethodSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		852E854D109AA2F761FB8471 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetJsonMethodSwift/Pods-GetJsonMethodSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetJsonMethodSwift/Pods-GetJsonMethodSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96DCAA7922C75262006B9017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9652A75B22C884B200C94867 /* getNikruData.swift in Sources */,
+				9652A75F22C8ACEB00C94867 /* NikruConstants.swift in Sources */,
+				9652A76122C8ADB700C94867 /* NikruTableView.swift in Sources */,
+				9652A75D22C89DBB00C94867 /* NikruApiManager.swift in Sources */,
+				968FABDA22C7E1520075A1B2 /* NikruTableViewCell.swift in Sources */,
+				96DCAA8322C75262006B9017 /* ViewController.swift in Sources */,
+				96DCAA8122C75262006B9017 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96DCAA8422C75262006B9017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96DCAA8522C75262006B9017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96DCAA8922C75263006B9017 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96DCAA8A22C75263006B9017 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96DCAA8D22C75263006B9017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96DCAA8E22C75263006B9017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96DCAA9022C75263006B9017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E1B881FD49C96699739268 /* Pods-GetJsonMethodSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GetJsonMethodSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myswift.com.GetJsonMethodSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96DCAA9122C75263006B9017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0A3C8022896DD452203DEE /* Pods-GetJsonMethodSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GetJsonMethodSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myswift.com.GetJsonMethodSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96DCAA7822C75262006B9017 /* Build configuration list for PBXProject "GetJsonMethodSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DCAA8D22C75263006B9017 /* Debug */,
+				96DCAA8E22C75263006B9017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96DCAA8F22C75263006B9017 /* Build configuration list for PBXNativeTarget "GetJsonMethodSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DCAA9022C75263006B9017 /* Debug */,
+				96DCAA9122C75263006B9017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96DCAA7522C75262006B9017 /* Project object */;
+}
